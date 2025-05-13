@@ -11,7 +11,7 @@ SPLIT_RATIO = (0.7, 0.15, 0.15)  # train, val, test
 TEMP_EXTRACT_DIR = "temp_extracted"
 TARGET_DIR = "final_dataset"
 
-st.title("📁 Animal Dataset Splitter")
+st.title("📁 Dataset Splitter")
 
 # File uploader
 uploaded_zip = st.file_uploader("Upload a ZIP file containing folders of images (each folder = 1 class)", type=["zip"])
